@@ -1,0 +1,74 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+label{
+  font-weight: 600;
+}
+
+.section-price {
+  display: flex;
+  align-items: center;
+}
+
+.width-manage {
+  width: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.radio-1 {
+  margin-left: 5%;
+}
+
+.radio-space {
+  margin-left: 4%;
+}
+
+.btn {
+  border-radius: 25px;
+  margin: 5px;
+}
+h5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#description {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#floor {
+  display: none;
+}
+
+#at-floor {
+  display: none;
+}
+
+.ph-box{
+  width: 148px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.contact-container{
+  display: flex;
+  gap: 20px;
+}
+
+
+/* For small screens */
+@media (max-width: 767px) {
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
